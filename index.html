@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Du lịch Việt Nam</title>
+</head>
+<body>
+    <!--Đầu Trang-->
+    <header>
+        <section id="home" class="hero" >
+        <div class="hero">
+            <h1>Khám Phá Vẻ Đẹp Việt Nam</h1>
+            <p>Hành trình khám phá những điểm đến nổi tiếng, nền văn hóa đa dạng và ẩm thực đặc sắc trải dài từ Bắc vào Nam.</p>
+            <a href="#regions">Khám phá ngay</a>
+        </div>
+        </section>
+        
+        <div class="header-top">
+            
+            <ul>
+        <div class="logo">
+            <i class="fa-solid fa-earth-asia"></i>
+            🌎Vietnam Travel
+        </div>
+                <li><a href="#home">Trang chủ</a></li>
+                <li><a href="#north">Miền Bắc</a></li>
+                <li><a href="#central">Miền Trung</a></li>
+                <li><a href="#south">Miền Nam</a></li>
+                <li><a href="#food">Ẩm thực</a></li>
+                <li><a href="#contact">Liên hệ</a></li>
+            </ul>
+        </div>
+    </header>
+
+
+    <section class="filter-section">
+        <h2>Tìm Kiếm</h2>
+        <div class="filter-container">
+            <select id="regionFilter">
+                <option value>Tất cả các miền</option>
+                <option value>Miền Bắc</option>
+                <option value>Miền Trung</option>
+                <option value>Miền Nam</option>
+            </select>
+
+            <select id="typeFilter">
+                <option value>Các món đặc trưng</option>
+                <option value>🍜Phở</option>
+                <option value>🥘Bún chả</option>
+                <option value>🍲Bún bò</option>
+                <option value>🍝Hủ tiếu</option>
+                <option value>🌮Bánh xèo</option>
+            </select>
+        </div>
+    </section>
+
+<!--3Mieenf-->
+    <section>
+        <section id="regions">
+        <div class="section-title">
+            <h1>🏔️Khám Phá 3 Miền Việt Nam</h1>
+        </div>
+    </section>
+
+    <section class="stats">
+    <div>
+        <h2>15+</h2>
+        <p>Địa điểm nổi tiếng</p>
+    </div>
+    <div>
+        <h2>20M+</h2>
+        <p>Lượt khách mỗi năm</p>
+    </div>
+    <div>
+        <h2>100+</h2>
+        <p>Món ăn đặc sản</p>
+    </div>
+</section>
+
+
+    <!--Miền Bắc-->
+    <section id="north" class="region-section">
+        <h1>Miền Bắc</h1>
+        <div class="card-container">
+
+            <!-- Hà Nội -->
+            <div class="place-card">
+                <img src="ảnh/hanoi.jpg">
+            <div class="place-name">
+                HÀ NỘI
+            </div>
+                <div class="place-info">
+                    <h3>📍Hà Nội</h3>
+                    <p>Hà Nội, thủ đô của Việt Nam, nổi tiếng với kiến trúc trăm tuổi và nền văn hóa phong phú với sự ảnh hưởng của khu vực Đông Nam Á, Trung Quốc và Pháp.</p>
+                </div>
+            </div>
+
+            <!-- Hạ Long -->
+            <div class="place-card">
+                <img src="ảnh/halong.jpg">
+            <div class="place-name">
+                VỊNH HẠ LONG
+            </div>
+                <div class="place-info">
+                    <h3>📍Vịnh Hạ Long</h3>
+                    <p>Hạ Long là thành phố trung tâm của tỉnh Quảng Ninh, nổi tiếng với Di sản thiên nhiên thế giới - Vịnh Hạ Long. Nơi đây thu hút du khách nhờ hệ thống hàng nghìn đảo lớn nhỏ và có cơ sở hạ tầng phát triển mạnh mẽ.</p>
+                </div>
+            </div>
+
+            <!-- SaPa -->
+            <div class="place-card">
+                <img src="ảnh/sapa.jpg">
+            <div class="place-name">
+                SA PA
+            </div>
+                <div class="place-info">
+                    <h3>📍Sa Pa</h3>
+                    <p>Sa Pa là thị trấn du lịch nổi tiếng. Nơi đây hấp dẫn du khách nhờ khí hậu mát mẻ quanh năm, cảnh quan núi non hùng vĩ, thung lũng Mường Hoa và văn hóa đặc sắc của các dân tộc thiểu số.</p>
+                </div>
+            </div>
+
+            <!-- Ninh Bình -->
+            <div class="place-card">
+                <img src="ảnh/ninhbinh.jpg">
+                <div class="place-name">
+                NINH BÌNH
+            </div>
+                <div class="place-info">
+                    <h3>📍Ninh Bình</h3>
+                    <p>Ninh Bình là vùng đất giao hòa hoàn hảo giữa thiên nhiên hoang sơ và các giá trị văn hóa lịch sử. Nơi đây sở hữu cảnh sắc non nước hữu tình với hệ thống hang động kỳ vĩ và các thung lũng ngập nước.</p>
+                </div>
+            </div>
+
+            <!-- Mộc Châu -->
+            <div class="place-card">
+                <img src="ảnh/mocchau.jpg">
+                <div class="place-name">
+                MỘC CHÂU
+            </div>
+                <div class="place-info">
+                    <h3>📍Mộc Châu</h3>
+                    <p>Mộc Châu cao nguyên nổi tiếng, nằm ở vùng Tây Bắc Việt Nam. Nơi đây nổi tiếng với khí hậu cao nguyên mát mẻ quanh năm, cảnh quan thiên nhiên tuyệt đẹp và bản sắc văn hóa đa dạng.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!--Miền Trung-->
+    <section id="central" class="region-section">
+        <h1>Miền Trung</h1>
+        <div class="card-containers">
+
+            <!-- Đà Nẵng -->
+            <div class="place-card">
+                <img src="ảnh/danang.jpg">
+                <div class="place-name">
+                    ĐÀ NẴNG
+                </div>
+                    <div class="place-info">
+                        <h3>📍Đà Nẵng</h3>
+                        <p>Đà Nẵng là đô thị trung tâm lớn nhất miền Trung, được mệnh danh là "thành phố đáng sống". Nổi bật với hệ thống hạ tầng hiện đại cùng các cây cầu biểu tượng (Cầu Rồng, Cầu Quay sông Hàn) và là cửa ngõ kết nối 3 di sản thế giới: Cố đô Huế, Hội An và Mỹ Sơn.</p>
+                    </div> 
+            </div>
+
+            <!-- Hội An -->
+            <div class="place-card">
+                <img src="ảnh/hoian.jpg">
+                <div class="place-name">
+                    HỘI AN
+                </div>
+                    <div class="place-info">
+                        <h3>📍Hội An</h3>
+                        <p>Phố cổ Hội An là thương cảng quốc tế sầm uất từ thế kỷ 16 - 17, được UNESCO công nhận là Di sản Thế giới. Nơi đây nổi bật nhờ vẻ đẹp kiến trúc giao thoa độc đáo, những dãy nhà ống mái ngói rêu phong, phố đèn lồng lung linh và không gian văn hóa bản địa nguyên vẹn.</p>
+                    </div>
+            </div>
+
+            <!-- Huế -->
+            <div class="place-card">
+                <img src="ảnh/hue.jpg">
+                <div class="place-name">
+                   HUẾ
+                </div>
+                    <div class="place-info">
+                        <h3>📍Huế</h3>
+                        <p>Huế mang đậm dấu ấn của Cố đô với bề dày lịch sử, kiến trúc cung đình và nét thơ mộng, yên bình đặc trưng. Vùng đất này nổi bật nhờ hệ thống di sản được UNESCO công nhận, văn hóa ẩm thực phong phú và cảnh quan thiên nhiên đan xen sông nước, núi đồi.</p>      
+                </div>
+            </div>
+
+            <!-- Phong Nha -->
+            <div class="place-card">
+                <img src="ảnh/phongnha.jpg">
+                <div class="place-name">
+                    PHONG NHA
+                </div>
+                    <div class="place-info">
+                        <h3>📍Phong Nha - Kẻ Bàng</h3>
+                        <p>Động Phong Nha là "kỳ quan đệ nhất động" thuộc Vương quốc hang động Vườn Quốc Gia Phong Nha - Kẻ Bàng. Nơi đây nổi bật với hệ thống núi đá vôi karst cổ hàng trăm triệu năm tuổi, những khối thạch nhũ tráng lệ và hệ sinh thái nhiệt đới vô cùng đa dạng.</p>
+                    </div>
+            </div>
+
+            <!-- Quy Nhơn -->
+            <div class="place-card">
+                <img src="ảnh/quynhon.jpg">
+                <div class="place-name">
+                    QUY NHƠN
+                </div>
+                    <div class="place-info">
+                        <h3>📍Quy Nhơn</h3>
+                        <p>Quy Nhơn là thành phố ven biển miền Trung nổi tiếng với vẻ đẹp hoang sơ, thơ mộng. Nơi đây là sự giao thoa hài hòa giữa núi non trùng điệp và bờ biển dài hình cánh cung, mang đậm dấu ấn lịch sử văn hóa Chăm Pa và nổi bật với nguồn hải sản phong phú</p>
+                    </div>
+            </div>
+    </section>
+
+    <!--Miền Nam-->
+    <section id="south" class="region-section">
+        <h1>Miền Nam</h1>
+        <div class="card-containered">
+
+            <!--TP Hồ chí minh-->
+            <div class="place-card">
+                <img src="ảnh/hcm.jpg">
+                <div class="place-name">
+                    TP HỒ CHÍ MINH
+                </div>
+                    <div class="place-info">
+                        <h3>📍TP Hồ Chí Minh</h3>
+                        <p>TP.HCM là siêu đô thị đặc biệt, trung tâm kinh tế - tài chính lớn nhất Việt Nam. Với diện tích 2.095 km2 và dân số khoảng 9 triệu người, thành phố nổi bật nhờ nhịp sống năng động, giao thoa văn hóa đa dạng và là cửa ngõ quốc tế quan trọng của phía Nam.</p>
+                    </div>
+            </div>
+
+            <!-- Phú Quốc -->
+            <div class="place-card">
+                <img src="ảnh/phuquoc.jpg">
+                <div class="place-name">
+                    PHÚ QUỐC
+                </div>
+                    <div class="place-info">
+                        <h3>📍Phú Quốc</h3>
+                        <p>Đảo Phú Quốc được mệnh danh là "Đảo Ngọc" và là thành phố đảo đầu tiên của Việt Nam. Nằm trong vịnh Thái Lan, nơi đây nổi tiếng với diện tích lớn nhất cả nước, hệ sinh thái biển – rừng nguyên sinh đa dạng được UNESCO công nhận, cùng ngành du lịch nghỉ dưỡng phát triển đẳng cấp quốc tế.</p>
+                    </div>
+            </div>
+
+            <!-- Cần Thơ -->
+
+            <div class="place-card">
+                <img src="ảnh/cantho.jpg">
+                <div class="place-name">
+                    CẦN THƠ
+                </div>
+                    <div class="place-info">
+                        <h3>📍Cần Thơ</h3>
+                        <p>Cần Thơ là "thủ phủ" của miền Tây (Tây Đô), nổi bật với nhịp sống sông nước. Đặc trưng nơi đây xoay quanh văn hóa chợ nổi (như Chợ nổi Cái Răng), hệ thống kênh rạch chằng chịt, các vườn trái cây trĩu quả, cùng con người hiền hòa, hào hiệp và mến khách.</p>
+                    </div>
+            </div>
+
+            <!-- Côn Đảo -->
+            <div class="place-card">
+                <img src="ảnh/condao.jpg">
+                <div class="place-name">
+                    CÔN ĐẢO
+                </div>
+                    <div class="place-info">
+                        <h3>📍Côn Đảo</h3>
+                        <p>Côn Đảo là một quần đảo hoang sơ thuộc tỉnh Bà Rịa-Vũng Tàu, nổi bật với sự kết hợp giữa hệ sinh thái biển đảo tuyệt đẹp và các giá trị lịch sử, tâm linh linh thiêng. Nơi đây được xem là điểm đến hoàn hảo cho cả du lịch về nguồn và nghỉ dưỡng</p>
+                    </div>
+            </div>
+
+            <!-- Tây Ninh -->
+            <div class="place-card">
+                <img src="ảnh/tayninh.jpg">
+                <div class="place-name">
+                    TÂY NINH
+                </div>
+                    <div class="place-info">
+                        <h3>📍Tây Ninh</h3>
+                        <p>Tây Ninh là tỉnh thuộc vùng Đông Nam Bộ, nổi bật là vùng đất giao thoa giữa cao nguyên và đồng bằng. Tỉnh có núi Bà Đen cao 986m (nóc nhà Nam Bộ), sở hữu Tòa Thánh Cao Đài độc đáo, và phát triển mạnh về kinh tế cửa khẩu giáp Campuchia.</p>
+                    </div>
+            </div>
+    </section>
+
+
+<section id="food" class="place-section">
+            <h1>🍜Ẩm Thực Việt Nam</h1>
+            <i>Tinh hoa ẩm thực trải dài từ Bắc vào Nam.</i>
+        <div class="food-container">
+    
+            <div class="food-card">
+                <img src="ảnh/phohanoi.jpg">
+                <div class="food-name">
+                    PHỞ HÀ NỘI
+                </div>
+            <div class="food-info">
+                <h2>🍜Phở Hà Nội</h2>
+                <i>Giá: 40.000 - 80.000 VNĐ</i>
+                <p>Món ăn truyền thống nổi tiếng của Việt Nam.</p>
+            </div>
+            </div>
+
+            <div class="food-card">
+                <img src="ảnh/bun-cha.jpg">
+                <div class="place-name">
+                    BÚN CHẢ
+                </div>
+            <div class="food-info">
+                <h2>🍳Bún Chả</h2>
+                <i>Giá: 35.000 - 70.000 VNĐ</i>
+                <p>Đặc sản nổi tiếng của Hà Nội.</p>
+            </div>
+            </div>
+
+            <div class="food-card">
+                <img src="ảnh/chacalavong.jpg" alt="Chả Cá">
+                <div class="food-name">
+                    CHẢ CÁ LÃ VỌNG
+                </div>
+            <div class="food-info">
+                <h2>🥘Chả Cá Lã Vọng</h2>
+                <i>Giá: 80.000 - 150.000 VNĐ</i>
+                <p>Món cá nướng hấp dẫn của miền Bắc.</p>
+            </div>
+            </div>
+
+            <div class="food-card">
+                <img src="ảnh/bunbo.jpg" alt="Bún Bò">
+                <div class="food-name">
+                    BÚN BÒ HUẾ
+                </div>
+            <div class="food-info">
+                <h2>🍛Bún Bò Huế</h2>
+                <i>Giá: 40.000 - 70.000 VNĐ</i>
+                <p>Đậm đà hương vị cố đô.</p>
+            </div>
+            </div>
+
+            <div class="food-card">
+                <img src="ảnh/mi-quang-da-nang.jpg" alt="Mì Quảng">
+                <div class="food-name">
+                    MÌ QUẢNG
+                </div>
+            <div class="food-info">
+                <h2>🍜Mì Quảng</h2>
+                <i>Giá: 35.000 - 60.000 VNĐ</i>
+                <p>Đặc sản nổi tiếng Quảng Nam.</p>
+            </div>
+            </div>
+
+            <div class="food-card">
+                <img src="ảnh/caolau.jpg" alt="Cao Lầu">
+                <div class="food-name">
+                    CAO LẦU
+                </div>
+            <div class="food-info">
+                <h2>🍲Cao Lầu</h2>
+                <i>Giá: 40.000 - 80.000 VNĐ</i>
+                <p>Món ăn biểu tượng phố cổ Hội An.</p>
+            </div>
+            </div>
+
+            <div class="food-card">
+                <img src="ảnh/hu tieu.jpg" alt="Hủ Tiếu">
+                <div class="food-name">
+                    HỦ TIẾU
+                </div>
+            <div class="food-info">
+                <h2>🍝Hủ Tiếu</h2>
+                <i>Giá: 35.000 - 70.000 VNĐ</i>
+                <p>Món ăn quen thuộc miền Nam.</p>
+            </div>
+            </div>
+
+            <div class="food-card">
+                <img src="ảnh/banhxeo.jpg" alt="Bánh Xèo">
+                <div class="food-name">
+                    BÁNH XÈO
+                </div>
+            <div class="food-info">
+                <h2>🌮Bánh Xèo</h2>
+                <i>Giá: 20.000 - 60.000 VNĐ</i>
+                <p>Giòn rụm, hấp dẫn và thơm ngon.</p>
+            </div>
+            </div>
+
+            <div class="food-card">
+                <img src="ảnh/ca-loc-nuong-trui-2-1.jpg" alt="Cá Lóc">
+                <div class="food-name">
+                    CÁ LÓC NƯỚNG TRUI
+                </div>
+            <div class="food-info">
+                <h2>🥖Cá Lóc Nướng Trui</h2>
+                <i>Giá: 100.000 - 250.000 VNĐ</i>
+                <p>Đặc sản miền Tây Nam Bộ.</p>
+            </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="reviews">
+    <div class="section-title">
+            <h2>Đánh giá của Du khách</h2>
+    </div>
+        <div class="review-container">
+            <div class="review-card">
+                <img src="ảnh/gai1.jpg">
+                <h3>Đặng Như Quỳnh</h3>
+                <div class="stars">
+                    ⭐⭐⭐⭐⭐
+                </div>
+                <p>Nha Trang có biển xanh, cát trắng và nhiều hoạt động vui chơi giải trí. Đây là địa điểm nghỉ dưỡng lý tưởng cho gia đình và bạn bè.</p>
+            </div>
+        
+            <div class="review-card">
+                <img src="ảnh/trai3.jpg">
+                <h3>Đỗ Hải Nam</h3>
+                <div class="stars">
+                    ⭐⭐⭐⭐⭐
+                </div>
+                <p>Tôi rất thích không khí cổ kính của Hà Nội. Phố cổ nhộn nhịp, ẩm thực đường phố phong phú và các di tích lịch sử rất đáng để khám phá.</p>
+            </div>
+
+            <div class="review-card">
+                <img src="ảnh/gai2.jpg">
+                <h3>Đỗ Thị Hằng</h3>
+                <div class="stars">
+                    ⭐⭐⭐⭐
+                </div>
+                <p>Huế mang vẻ đẹp trầm mặc và thơ mộng. Đại Nội và các lăng tẩm giúp tôi hiểu thêm về lịch sử Việt Nam. Ẩm thực Huế cũng rất đặc sắc.</p>
+            </div>
+
+            <div class="review-card">
+                <img src="ảnh/gai3.jpg">
+                <h3>Tạ Thị Hạnh</h3>
+                <div class="stars">
+                    ⭐⭐⭐⭐⭐
+                </div>
+                <p>Phố cổ Hội An lung linh về đêm với những chiếc đèn lồng đầy màu sắc. Không gian yên bình, con người thân thiện và đồ ăn vô cùng hấp dẫn.</p>
+            </div>
+
+        </div>
+    </section>
+
+<!--Liên hệ-->
+<section id="contact" class="contact-section">
+    <div class="section-title">
+        <h2>Liên Hệ Với Chúng Tôi</h2>
+        <p>Nếu bạn cần tư vấn du lịch hoặc góp ý cho website,hãy gửi thông tin cho chúng tôi.</p>
+    </div>
+    <div class="contact-container">
+        <form id="contactForm">
+            <div class="form-group">
+                <label>Họ và tên</label>
+                <input
+                    type="text"
+                    id="fullname"
+                    placeholder="Nhập họ và tên">
+            </div>
+            <div class="form-group">
+                <label>Email</label>
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Nhập email">
+            </div>
+            <div class="form-group">
+                <label>Nội dung</label>
+                <textarea
+                    id="message"
+                    rows="6"
+                    placeholder="Nhập nội dung liên hệ...">
+                </textarea>
+            </div>
+            <button type="submit" class="btn">
+                Gửi thông tin
+            </button>
+        </form>
+    </div>
+</section>
+
+<!--Chân trang-->
+<footer>
+    <div class="footer-container">
+        <div class="footer-box">
+            <h3>Du Lịch Việt Nam</h3>
+            <p> Khám phá vẻ đẹp Việt Nam,những điểm đến hấp dẫn từ Bắc vào Nam.</p>
+        </div>
+
+        <div class="footer-box">
+            <h3>Liên kết nhanh</h3>
+            <ul>
+                <li><a href="#home">Trang chủ</a></li>
+                <li><a href="#north">Miền Bắc</a></li>
+                <li><a href="#central">Miền Trung</a></li>
+                <li><a href="#south">Miền Nam</a></li>
+                <li><a href="#food">Ẩm thực</a></li>
+                <li><a href="#contact">Liên hệ</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-box">
+            <h3>Thông tin liên hệ</h3>
+            <p>📍 Việt Nam</p>
+            <p>📞 0332897059</p>
+            <p>✉️ t.thanhhienn21@gmail.com</p>
+        </div>
+
+        <div class="footer-box">
+            <h3>Bản đồ</h3>
+            <iframe
+                src="https://www.google.com/maps?q=ha%20noi&output=embed">
+            </iframe>
+        </div>
+    </div>
+    <div class="copyright">
+        © 2026 Du Lịch Việt Nam | Created by NguyenThiThanhHien
+    </div>
+</footer>
+
+</div>
+
+</body>
+</html>
